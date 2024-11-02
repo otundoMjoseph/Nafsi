@@ -103,6 +103,31 @@ nav li a:hover{
     height: 400px;
  
 }
+
+/* family */
+.family  {
+    position: absolute;
+    /* margin-left: 800px; */
+    transform: translateY(-620px) translateX(100px);
+}
+
+
+ #family {
+padding: 10px;
+width: 500px;
+height: 300px;
+transform: translateX(800px) scaleX(1.5);
+
+
+}
+
+/* family video text */
+ #family-text{
+    transform: translateX(800px);
+    width: 500px;
+
+}
+
 .home-content{
     display: flex;
     margin: 4px;
