@@ -1,0 +1,93 @@
+body{
+    background-color: rgba(96, 11, 66, 1);
+    color: #fff;
+    margin: 100px;
+    overflow: hidden;
+}
+
+.register {
+    /* box-sizing: border-box; */
+    margin-left: 20px;
+    height: 100px;
+    padding: 300px;
+    display: grid;
+    align-content: center;
+    justify-content: center; 
+    margin: 100px;
+    border: 1px solid black ;
+    width: 200px;
+    flex-wrap: nowrap;
+    border-radius: 25px;
+    
+    
+}
+
+#signup{
+    margin: 10px;
+    font-size: 4rem;
+    color: black;
+}
+
+div{
+    max-width: 1px;
+}
+
+
+div input{
+    height: 25px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+div #check{
+    width: 20px;
+    
+}
+
+input[type="checkbox"] {  
+    accent-color: rgb(18, 18, 24); /* Change to your desired color */  
+} 
+
+button{
+    display: inline-block;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+
+
+}
+
+button:hover{
+ background-color: palevioletred;
+}
+
+h2{
+    font-size: 1rem;
+    font-weight: em;
+}
+
+
+
+
+li{
+    list-style-type: none;
+}
+ 
+
+.social-media{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+   
+}
+
+.social-media li a{
+    list-style-type: none;
+    width: 10px;
+}
+

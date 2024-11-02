@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    overflow: hidden;
+}
+
+section{
+    width: 90px;
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 500px;
+    height: 20px;
+    position: sticky;
+    top: 100px;
+    bottom: 100px;
+
+}
+
+form{
+    display: block;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+input{
+    display: flex;
+}
+
+
+p{
+    
+    height: 70px;
+    display: flex;
+    width: 200px;
+    font-size: 30px;
+}
+
