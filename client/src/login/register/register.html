@@ -4,44 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/client/src/login/register/register-login.css">
+    <link rel="stylesheet" href="./Register.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     
 </head>
 <body>
     <section class="register">
+       <h1 ">SIGNUP</h1>
+        <a href="/client/src/login/register/login.html">Login</a>
         
-        <h1 id="signup">SIGNUP</h1><a href="/client/src/login/register/login.html">Login</a>
+     
         <div class="login-content">
            
         
-            <form action="">
-                <div><label for="">id</label>
-                    <input type="text" required><br></div>
-                <div>
+            <form action="" method="post">
+               <label for="">id</label>
+                    <input type="text" required><br>
+               
                     <label for="">Name</label>
                 <input type="text" placeholder="enter your name" required class="input"><br>
-                </div>
                 
-               <div> <label for="">Email</label>
-                <input type="text" required placeholder="email"  "class ="input"></div>
+                
+               <label for="">Email</label>
+                <input type="text" required placeholder="email"  "class ="input"><br>
                 
 
-               <div><label for="">Password</label>
-                <input type="password" placeholder="enter 8 characters"class ="input" ></div>
-                <div><label for="">Confirm</label>
-                    <input type="password" placeholder="enter 8 characters"class ="input" ></div>
+              <label for="">Password</label>
+                <input type="password" placeholder="enter 8 characters"class ="input" ><br>
+               <label for="">Confirm</label>
+                    <input type="password" placeholder="enter 8 characters"class ="input" ><br><br>
                 
-                        <input type="checkbox" id="check">Remember me</div>
-                  
+                
+                        <div class="remember-me"><input type="checkbox" id="check"><p id="me">Remember me</p></div>
+                          <div id="gender"> <p>gender</p>
+                            <select name="" id="">
+                                <option value="">Female</option>
+                                <option value="">Male</option>
+                                <option value="">Prefer not say</option>
+                            </select></div>
+                            <div id="country">
+                                <label for="Country">Select country</label>
+                                <select name="" id="">
+                                  <option value=""></option>
+                                </select>
+                            </div>
                         <button>Submit</button>
                     </form>
-                
-                <h2>or use your socials</h2>
+                  
+                <h2 id="">or use your socials</h2>
                 <div class="social-media">
                     <li><a href=""><i class='bx bxl-google' ></i></a></li>
                     <li><a href=""><i class='bx bxl-facebook-circle' ></i></a></li>
-                    <li><a href=""><i class='bx bxl-twitter' ></i></a></li>    
+                    <li><a href=""><i class='bx bxl-twitter' ></i></a></li>  
+                    
                    
                 </div>
                 

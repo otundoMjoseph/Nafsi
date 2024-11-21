@@ -9,14 +9,15 @@ body{
 }
 
 section{
-    width: 90px;
-    /* border: 1px solid black; */
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
     display: flex;
-    padding: 500px;
-    height: 20px;
+    border-radius: 15px;
     position: sticky;
     top: 100px;
     bottom: 100px;
+    transform: translate(500px);
 
 }
 
@@ -39,3 +40,7 @@ p{
     font-size: 30px;
 }
 
+.google-icon a{
+font-size: 50px;
+color: #fff;
+}
