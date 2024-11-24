@@ -5,42 +5,46 @@
 }
 
 body{
-    overflow: hidden;
+    background: rgb(51, 2, 10);
 }
+
+
 
 section{
     width: 500px;
-    height: 500px;
     border: 1px solid black;
-    display: flex;
-    border-radius: 15px;
-    position: sticky;
-    top: 100px;
-    bottom: 100px;
-    transform: translate(500px);
+    transform: translate(500px, 100px);
+    display: grid;
+    gap: 50px;
+    height: 400px;
+    background: #e01111;
+    border: 1px solid black;
+    box-shadow: rgba(190, 13, 7, 0.4) -5px 5px, rgba(173, 9, 9, 0.3) -10px 10px, rgba(223, 9, 9, 0.2) -15px 15px, rgba(202, 12, 12, 0.1) -20px 20px, rgba(226, 19, 19, 0.05) -25px 25px;
+    border-radius: 25px;
+}
 
+h1{
+    color: white;
+    transform: translate(200px);
 }
 
 form{
-    display: block;
-    align-items: center;
-    justify-content: space-evenly;
-}
 
-input{
     display: flex;
+    flex-direction: column;
+    transform: translate(10px, 20px);
+
 }
 
 
-p{
+form input{
+    width: 400px;
+    height: 50px;
     
-    height: 70px;
-    display: flex;
-    width: 200px;
-    font-size: 30px;
 }
 
-.google-icon a{
-font-size: 50px;
-color: #fff;
+button{
+    width: 100px;
+    height: 50px;
+    transform: translate(200px, 40px);
 }

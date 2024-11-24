@@ -8,16 +8,21 @@
 body{
     color: white;
     background: rgb(51, 2, 10);
+    overflow-x: hidden;
+  
 }
 
 
 .register{
 
-    width: 500px;
+    width: 600px;
     border: 1px solid black;
-    transform: translate(500px, 100px);
+    transform: translate(500px, 10px);
     display: grid;
     gap: 50px;
+    height: 800px;
+    background: #e01111;
+    
    
     
 
@@ -26,8 +31,9 @@ body{
 
 .register a {
     color: white;
-    transform: translate(430px, 400px);
+    transform: translate(405px, -80px);
     text-decoration: none;
+    font-size: 2rem;
 
 }
 
@@ -35,6 +41,8 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    transform: translate(100px, -100px);
+  
  
 }
 
@@ -43,18 +51,26 @@ form {
  form input{
    border: none;
    outline: none;
-   width: 500px;
+   width: 450px;
    height: 50px;
   
+   /* transform: translate(20px); */
+  
+}
+
+form label{
+  font-size: 1rem;
+  /* transform: translate(-100px); */
+  font-size: 2rem;
 }
 
 .social-media{
     display: flex;
-    transform: translateY(-100px);
+    transform: translate(200px,-100px);
+    
+   
 }
-.social-media li {
-    list-style-type: none;
-}
+
 
 
 
@@ -71,11 +87,17 @@ input[type="checkbox"] {
   }
 
   button{
-    width: 100px;
-    transform: translate(400px, 50px);
-    background: black;
+    width: 200px;
+    transform: translate(150px, -105px);
+    background: #fff;
     color: white;
-    height: 50px;
+    height: 60px;
+    color: black;
+    border-radius: 25px;
+  }
+
+  button:hover{
+    background: #e01111;
   }
 
   select{
@@ -85,10 +107,11 @@ input[type="checkbox"] {
   }
 
   #gender {
-    transform: translate(400px, -90px);
+    transform: translate(300px, -205px);
   }
 
 #country{
-    transform: translate(100px, 250px);
+    transform: translate(0px, 200px);
     position: fixed;
 }
+
