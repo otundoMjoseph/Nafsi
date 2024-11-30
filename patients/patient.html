@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patients dashboard</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        
+
+        <nav>
+            
+            <form action="">
+                <a href=""><i class='bx bx-menu'></i></a>
+                <a href=""><i class='bx bxs-moon'></i></a>
+            </form>
+
+            <a href="#">Home</a>
+           
+            <a href=""><img src="/images/patients/medical-check.png" alt=""></a>
+            
+            <a href=""><i class='bx bxs-chat' ></i>
+                Send Message</a>
+            <a href="">Logout</a>
+            
+          
+        </nav>
+        <section id="hidden-section">
+            <a href=""><img src="/images/profile/menu.png" alt=""id="menu"></a>
+            <div id="user-profile">
+                
+              
+                <img src="/images/profile/profile.png" alt="" id="profile">
+          
+                <form action="upload.php" method="post" enctype="multipart/form-data">
+                    <label for="input-file" id="file-upload">Photo upload</label>
+                    <input type="file" name="image" accept="image/jpeg, image/png, image/jpg " id="input-file"><br>
+                   
+                 <label for="">About Me</label><br>
+                    <label for="">Nickname</label><br>
+
+                    <label for="">Delete Account</label>
+                    <button id="delete-account"></button>
+                     
+                  
+                </form>
+              
+
+            </div>
+           
+           
+        </section>
+    </header>
+   <section class="dashboard">
+    
+ <div class="provider">
+    <img src="/images/patients/recipient.png" alt="" id="provider">
+<ul id="health-providers">
+    <li>
+        <select name="" id="">
+
+        <option value="">view-health providers</option>
+       
+    </select></li>
+<li><select name="" id="">
+    <option value="">nearby-providers</option>
+</select>
+</li>
+</ul>
+
+
+ </div>
+ <div class="medical-check">
+     <img src="/images/patients/medical-check.png" alt="">
+ </div>
+ <div class="viewall">
+
+ </div>
+
+ <div class="select-doctor">
+    <img src="/images/patients/doctor.png" alt="">
+  <button>view doctors</button>
+  </div>
+
+  <div class="book-appointment">
+     <img src="/images/patients/medical-team.png" alt="" id="team">
+     <ul>
+   <li> 
+      <button>Select a doctor</button></li>
+
+     
+         <li><select name="" id="">
+             <option value="">select date/time</option>
+             <option value=""></option>
+         </select></li>
+         <li><button>Book appointment</button></li>
+     </ul>
+      </div>
+
+  <div class="check-appointment">
+     <img src="/images/patients/appointment.png" alt="" id="appointment">
+    <ul id="appointment-list">
+     <li><select name="" id="">
+         <option value="">View appointments</option>
+     </select></li>
+     <li><button>Appointment history</button></li>
+     <li><button>Delete appointment</button></li>
+    </ul>
+  </div>
+   </section>
+   <script src="./userProfile.js"></script>
+</body>
+</html>

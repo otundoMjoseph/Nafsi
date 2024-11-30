@@ -1,0 +1,120 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.2rem;
+}
+
+
+body{
+    color: white;
+    background: rgb(51, 2, 10);
+    overflow-x: hidden;
+  
+}
+
+
+.register{
+
+    width: 600px;
+    border: 1px solid black;
+    transform: translate(500px, 10px);
+    display: grid;
+    gap: 50px;
+    height: 800px;
+    background: #e01111;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    
+   
+    
+
+}
+
+
+.register a {
+    color: white;
+    transform: translate(405px, -80px);
+    text-decoration: none;
+    font-size: 2rem;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transform: translate(100px, -100px);
+  
+ 
+}
+
+
+
+ form input{
+   border: none;
+   outline: none;
+   width: 450px;
+   height: 50px;
+   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  
+   /* transform: translate(20px); */
+  
+}
+
+form label{
+  font-size: 1rem;
+  /* transform: translate(-100px); */
+  font-size: 2rem;
+}
+
+.social-media{
+    display: flex;
+    transform: translate(200px,-100px);
+    
+   
+}
+
+
+
+
+input[type="checkbox"] {
+    width: 20px;  /* Adjust size */
+    height: 20px;
+    cursor: pointer;
+    transform: translate(10px);
+  }
+  
+
+  #me{
+    transform: translate(40px, -30px);
+  }
+
+  button{
+    width: 200px;
+    transform: translate(150px, -105px);
+    background: #fff;
+    color: white;
+    height: 60px;
+    color: black;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+
+  button:hover{
+    background: #e01111;
+  }
+
+  select{
+    width: 100px;
+    color: white;
+    background: black;
+  }
+
+  #gender {
+    transform: translate(300px, -205px);
+  }
+
+#country{
+    transform: translate(0px, 200px);
+    position: fixed;
+}
+
