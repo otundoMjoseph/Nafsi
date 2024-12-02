@@ -20,24 +20,24 @@
                 <a href=""><i class='bx bxs-moon'></i></a>
             </form>
 
-            <a href="#">Home</a>
+            <a href="../client/src/Nafsiweb/Home/nafsi.html">Home</a>
            
             <a href=""><img src="/images/patients/medical-check.png" alt=""></a>
             
-            <a href=""><i class='bx bxs-chat' ></i>
+            <a href="../client/src/Nafsiweb/contactUs/contactus.html"><i class='bx bxs-chat' ></i>
                 Send Message</a>
             <a href="">Logout</a>
             
           
         </nav>
-        <section id="hidden-section" >
-            <a href=""><img src="/images/profile/menu.png" alt=""id="menu"></a>
-            <div id="user-profile">
+        <section id="hidden-section" class="hidden">
+            <a href=""><img src="/images/profile/menu.png" alt=""id="menu" class="menu"></a>
+            <div id="user-profile" class="profile">
                 
               
                 <img src="/images/profile/profile.png" alt="" id="profile">
           
-                <form action="upload.php" method="post" enctype="multipart/form-data">
+                <form action="" method="post" >
                     <label for="input-file" id="file-upload">Upload photo</label>
                     <input type="file" name="image" accept="image/jpeg, image/png, image/jpg " id="input-file"><br>
                    
@@ -84,17 +84,17 @@
    <section class="dashboard">
     
  <div class="provider">
-    <img src="/images/patients/recipient.png" alt="" id="provider">
+    <img src="/images/doctors/medical-checkup.png" alt="" id="provider">
 <ul id="health-providers">
-    <li>
-        <select name="" id="">
-
-        <option value="">View Patients</option>
+   <li><button>View Patients</button></li>
        
-    </select></li>
-<li><select name="" id="">
-    <option value="">nearby-providers</option>
-</select>
+
+        
+       
+  
+
+    
+
 </li>
 </ul>
 
@@ -118,7 +118,7 @@
    <li> 
       <li><button>View schedule</button></li>
          <li><button>Update Schedule</button></li>
-         <li><button>Delete Schedule</button></li>
+         <li><button>Cancel Schedule</button></li>
      </ul>
       </div>
 
@@ -131,6 +131,6 @@
     </ul>
   </div>
    </section>
-   <script src="./userProfile.js"></script>
+   <script src="../userProfile.js"></script>
 </body>
 </html>
