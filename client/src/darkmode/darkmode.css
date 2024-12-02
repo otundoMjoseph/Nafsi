@@ -1,0 +1,38 @@
+body.dark-mode {
+    background-color: #121212;
+    color: #fff;
+}
+
+body.dark-mode nav{
+    background: #121212;
+    
+}
+
+body.dark-mode #hidden-section{
+    background-color: #121212;
+    box-shadow: hidden;
+    border: none;
+}
+
+
+
+body.dark-mode a {
+    color: white;
+}
+
+body.dark-mode a:hover{
+    background-color: red;
+}
+
+body.dark-mode a img{
+    background-color: red;
+}
+
+
+
+
+body.dark-mode button {
+    background-color: #fff;
+    color: black;
+}
+

@@ -6,6 +6,7 @@
     <title>Admin</title>
    <link rel="stylesheet" href="../style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <link rel="stylesheet" href="../client/src/darkmode/darkmode.css">
 </head>
 <body>
     <header>
@@ -15,7 +16,9 @@
             
             <form action="">
                 <a href=""><i class='bx bx-menu'></i></a>
-                <a href=""><i class='bx bxs-moon'></i></a>
+                <a href="" id="toggle-theme">
+                    <i class='bx bxs-moon'></i> <!-- Moon icon that toggles dark mode -->
+                </a>
             </form>
 
             <a href="#">Home</a>
@@ -107,5 +110,6 @@
   </div>
    </section>
 <script src="../userProfile.js"></script>
+<script src="../client/src/darkmode/lightmode/darkmode/lightmode.js"></script>
 </body>
 </html>
