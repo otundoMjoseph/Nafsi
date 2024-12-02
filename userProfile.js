@@ -1,8 +1,5 @@
 
 
-
-
-
 document.addEventListener("DOMContentLoaded", function() {
     // Getting elements
     const menuImage = document.getElementById("menu"); // Profile image link
