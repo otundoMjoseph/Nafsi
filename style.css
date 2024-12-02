@@ -219,3 +219,28 @@ li{
     transform: translate(200px);
 }
 
+
+
+
+
+/* For tablets and up (at least 768px wide) */
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row; /* Two columns for tablets and larger */
+    }
+}
+
+/* For large screens (at least 992px wide) */
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+}
+
+/* For very large screens (at least 1200px wide) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1100px;
+    }
+}
