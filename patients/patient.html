@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="../client/src/darkmode/darkmode.css">
-    <link rel="shortcut icon" href="/images/patients/medical-check.png" type="image/x-icon">
+   <link rel="shortcut icon" href="../images/favicon/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./patient.css">
 </head>
 <body>
@@ -78,6 +78,10 @@
  </div>
  <div class="viewall">
 <img src="../images/admin/rate.png" alt="">
+
+<form action="">
+    <button>Reviews</button>
+</form>
  </div>
 
  <div class="select-doctor">
@@ -92,31 +96,50 @@
 
   <div class="book-appointment">
      <img src="/images/patients/medical-team.png" alt="" id="team">
-     <ul>
-   <li> 
+   <form action="">
+    <ul>
+        <li> 
+          
      
-
-     
-         
-            <li><button>Select date/time</button></li>
-             
-      
-         <li><button>Book appointment</button></li>
-     </ul>
+          
+              
+                 <li><button>Select date/time</button></li>
+                  
+           
+              <li><button>Book appointment</button></li>
+          </ul>
+   </form>
       </div>
 
   <div class="check-appointment">
      <img src="/images/patients/appointment.png" alt="" id="appointment">
    <form action="">
     <ul id="appointment-list">
-        <li><button>View appointments</button></li>
+        <li><button >View appointments</button></li>
       
         <li><button>Delete appointment</button></li>
        </ul>
    </form>
   </div>
+
+
+<!-- Review Modal -->
+<div id="reviewModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Submit a Review</h2>
+        <form id="reviewForm">
+            <textarea id="reviewText" placeholder="Write your review here..." required></textarea>
+            <button type="submit" id="submitReviewButton">Submit Review</button> <!-- Submit Review Button -->
+            <button type="button" id="hideReviewButton">Hide Review</button> <!-- Hide Review Button -->
+        </form>
+    </div>
+</div>
+
+
    </section>
    <script src="../userProfile.js"></script>
    <script src="../client/src/darkmode/lightmode/darkmode/lightmode.js"></script>
+   <script src="./patients.js"></script>
 </body>
 </html>

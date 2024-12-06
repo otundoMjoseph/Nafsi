@@ -19,11 +19,11 @@ document.addEventListener('DOMContentLoaded', function () {
             healthProvidersList.appendChild(listItem);
           });
   
-          // Populate the viewall section
+          
           const viewAllSection = document.querySelector('.viewall');
           viewAllSection.textContent = `Total Providers: ${data.providers.length}`;
   
-          // Populate the appointment-list
+         
           const appointmentList = document.getElementById('appointment-list');
           data.appointments.forEach(appointment => {
             const appointmentItem = document.createElement('li');
@@ -39,7 +39,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
   
-    // Call the fetchData function when the page is loaded
     fetchData();
   });
   

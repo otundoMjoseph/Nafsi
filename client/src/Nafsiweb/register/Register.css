@@ -90,7 +90,7 @@ input[type="checkbox"] {
 
   button{
     width: 200px;
-    transform: translate(150px, -105px);
+    transform: translate(120px, -230px);
     background: #fff;
     color: white;
     height: 60px;
@@ -104,17 +104,26 @@ input[type="checkbox"] {
   }
 
   select{
-    width: 100px;
+    width: 80px;
     color: white;
     background: black;
   }
 
   #gender {
     transform: translate(300px, -205px);
+    width: 30px;
+   
   }
 
 #country{
-    transform: translate(0px, 200px);
+    transform: translate(-10px, -300px);
     position: fixed;
 }
 
+
+#user-gender{
+  transform: translate(350px, -250px);
+}
+input[type="radio"]{
+  width: 40px;
+}
