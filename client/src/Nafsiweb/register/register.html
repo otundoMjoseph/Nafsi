@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Register</title>
     <link rel="stylesheet" href="./Register.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="/images/favicon/favicon.png" type="image/x-icon">
@@ -36,11 +36,19 @@
                     <input type="password" placeholder="enter 8 characters"class ="input" ><br><br>
                 
                 
-                        <div class="remember-me"><input type="checkbox" id="check"><p id="me">Remember me</p>
-                            <input type="checkbox" id="check"><p id="me">Terms and coniditions</p><br><br><br>
-                           <label for="">
-                            <input type="radio" name="gender" id="gender" name="Male-Female"><p id="user-gender">Male </p></label>
-                           <label for=""><input type="radio" id="gender" name="gender"><p id="user-gender">Female</p></label> <br>
+                        <div class="remember-me">
+                           <input type="checkbox" id="check"><p id="me">Remember me</p>
+                           <input type="checkbox" id="check"><p id="me"><a href="">Terms and coniditions</a></p><br><br><br>
+
+                         <div class="gender"> 
+                           <label for="" id="male" class="user-gender" role="radio">Male</label>
+                          <input type="radio" name="gender" id="gender" name="Male-Female">
+                        
+                         <label for="" id="female" class="user-gender" role="radio">Female</label>
+                          <input type="radio" id="gender" name="gender"> <br>
+
+
+                        </div>
                            
                            
                          
@@ -49,8 +57,14 @@
                                 <select name="" id="">
                                   <option value=""></option>
                                 </select>
+
+                                <label for=""></label>
+                                <input type="text" id="Age" placeholder="age">
                             </div>
+
                         <button type="submit">Submit</button>
+
+
                     </form>
                   
                 
