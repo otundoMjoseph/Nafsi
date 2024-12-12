@@ -17,10 +17,17 @@
         <nav>
             
             <form action="">
-                <a href=""><i class='bx bx-menu'></i></a>
-                <a href="" id="toggle-theme">
-                    <i class='bx bxs-moon'></i> <!-- Moon icon that toggles dark mode -->
+                <a href="javascript:void(0)" class="hamburger-menu" onclick="toggleMenu()">
+                    <i class='bx bx-menu'></i>
                 </a>
+                <div id="navbar" class="navbar">
+                    <a href="#settings">Settings</a>
+                    <a href="#logout">Logout</a>
+                    <a href="" id="toggle-theme">
+                        <i class='bx bxs-moon'></i> 
+                    </a>
+                </div>
+                
             </form>
 
             <a href="#">Home</a>
@@ -29,7 +36,7 @@
             
             <a href="../client/src/Nafsiweb/contactUs/contactus.html"><i class='bx bxs-chat' ></i>
                 Send Message</a>
-            <a href="">Logout</a>
+           
             
           
         </nav>
@@ -40,16 +47,26 @@
               
                 <img src="/images/profile/profile.png" alt="" id="profile">
           
-                <form action="upload.php" method="post" enctype="multipart/form-data">
+                <form action="" method="post" enctype="multipart/form-data" id="upload">
                     <label for="input-file" id="file-upload">Photo upload</label>
                     <input type="file" name="image" accept="image/jpeg, image/png, image/jpg " id="input-file"><br>
                    
                  <label for="">About Me</label><br>
-                    <label for="">Nickname</label><br>
+                 <textarea name="" id=""></textarea>
+                    <label for=""></label><br>
 
-                    <label for="">Delete Account</label>
-                    <button id="delete-account"></button>
-                     
+                    
+                  
+                    
+                       <div class="delete-update">
+                        
+                       <ul id="delete">
+                        <li> <button class="delete-account-update">Delete profile</button>
+                           </li>
+                        <li> <button class="delete-account-update">Update Profile</button></li>
+                       </ul>
+                       </div>
+                   
                   
                 </form>
               
@@ -141,5 +158,6 @@
    <script src="../userProfile.js"></script>
    <script src="../client/src/darkmode/lightmode/darkmode/lightmode.js"></script>
    <script src="./patients.js"></script>
+   <script src="./hamberger.js"></script>
 </body>
 </html>

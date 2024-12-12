@@ -1,65 +1,68 @@
-html{
-    font-size: 16px;
-    font-family: 'Figtree', san-serif;
-    line-height: 1.5;
-    
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+:root{
+    /* FONTFAMILY */
+    --FONT-FAMILY: 'Courier New', Courier, monospace;
+    /* BACKGROUND */
+    --BACK-GROUND: #FFF;
+    /* HEADER BACKGROUND */
+    --HEADER-BACKGROUND: rgb(17, 4, 4);
+    /* STYLING LINKS */
+   --REMOVE-LINK-UNDERLINE: none;
+   /* hover effect */
+   --HOVER-BLUE: AQUA;
 }
 
 body{
- 
-    background: linear-gradient(
-      to right,
-      #FFEFBA,#FFFFFF
-    );
-    margin: 0px;
+    font-family: var(--FONT-FAMILY);
+    font-size: 2em;
+    font-weight: bold;
     overflow-x: hidden;
+    background: #FFF;
+     
+}
+
+header {
+    background: var(--HEADER-BACKGROUND);
 }
 
 nav {
-    margin: 0px;
     display: flex;
-   
-    justify-content: flex-end;
-    align-items: flex-start;
-    position: absolute; 
-    background: #d62222;  
-    width: 100%;
-  
+    flex-direction: row;
+    justify-content: space-around;
     
     
-    
+ 
 }
 
-nav li {
+nav a {
+    text-decoration: var(--REMOVE-LINK-UNDERLINE);
+    color: var(--BACK-GROUND);
     
+
+}
+
+nav a:hover{
+color: var(--HOVER-BLUE);
+
+}
+
+nav li{
+
     list-style-type: none;
-    
-    font-size: 2rem;
-   
-    
-    
-    
 }
-
-nav ul li a{
-    padding-left: 100px;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    
-   
-}
-
-nav ul li a{
-    transition-property: color;
-}
-
 
 nav li a:hover{
-    background-color: pink;
-    border-radius: 50px;
-    width: 1%;
-    transition: 3s;
+    color: aqua;
+    transition: 1s ease-in;
 }
+
 
 #hero{
     width: 100%;

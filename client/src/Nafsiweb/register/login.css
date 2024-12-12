@@ -6,6 +6,7 @@
 
 body{
     background: rgb(51, 2, 10);
+    color: #fff;
 }
 
 
@@ -40,6 +41,8 @@ form{
 form input{
     width: 400px;
     height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border: none;
     
 }
 
@@ -47,4 +50,9 @@ button{
     width: 100px;
     height: 50px;
     transform: translate(200px, 40px);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+button:hover{
+    background-color: #e01111;
 }
