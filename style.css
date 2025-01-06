@@ -86,7 +86,7 @@ header nav a img{
 
 #user-profile{
     width: 250px;
-    height: 500px;
+    height: 700px;
     transform: translate(60px);
     display: flex;
     flex-direction: column;

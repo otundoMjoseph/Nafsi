@@ -1,0 +1,28 @@
+#user-profile{
+    overflow: auto;
+    flex: 1;
+    clear: both;
+    position: fixed;
+    height: 600px;
+    
+}
+
+
+#form{
+    transform: translate(30px, 250px);
+    position: fixed;
+}
+
+#update-delete{
+    position: fixed;
+    transform: translate(10px, -100px); 
+   
+
+}
+
+hr{
+    background: blue;
+    height: 5px;
+    
+}
+

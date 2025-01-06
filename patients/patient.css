@@ -1,8 +1,10 @@
 #patients-buttons{
     transform: translate(200px);
 }
+.patient-profile{
+   width:  500px;
+}
 
- /* Modal Style */
 .modal {
     display: none; 
     position: fixed;

@@ -34,7 +34,7 @@
             
           
         </nav>
-        <section id="hidden-section" class="hidden">
+        <section id="hidden-section" >
             <a href=""><img src="/images/profile/menu.png" alt=""id="menu" class="menu"></a>
             <div id="user-profile" class="profile">
                 
@@ -45,24 +45,25 @@
                     <label for="input-file" id="file-upload">Upload photo</label>
                     <input type="file" name="image" accept="image/jpeg, image/png, image/jpg " id="input-file"><br>
                    
-                 <label for="">About Me</label><br>
-                 <textarea name="" id=""></textarea>
-                  <hr>
-
-                  <label for="">Specialisation</label>
-                  <input type="text">
-                  <hr>
-                  <label for="experience">Experience</label><br>
-                  <input type="text">
-                  <hr>
+                    <p><strong>Name:</strong> <span id="profileName"></span></p>
+                    <hr>
+                    <p><strong>Email:</strong> <span id="profileEmail"></span></p>
+                    <hr>
+                    <p><strong>Country:</strong> <span id="profileCountry"></span></p>
+                    <hr>
+                    <p><strong>Gender:</strong> <span id="profileGender"></span></p>
+                    <hr>
+                    <p><strong>Role:</strong> <span id="profileRole"></span></p>
+                    <hr>
                  
                     
                     <div class="update-delete">
                         <form action="" id="update-delete">
 
-                            <ul id="buttons">
+                            <ul id="account-modification">
                                 <li><button>Update</button></li>
                                 <li><button>Delete</button></li>
+                              
                             </ul>
                             
                         </form>
@@ -133,9 +134,8 @@
   </div>
  
    </section>
-  
-   <script src="../userProfile.js"></script>
+ <script src="../userProfile.js"></script>
    <script src="../client/src/darkmode/lightmode/darkmode/lightmode.js"></script>
- <script src="./doctors.js"></script>
+ <!-- <script src="./doctors.js"></script>  -->
 </body>
 </html>
