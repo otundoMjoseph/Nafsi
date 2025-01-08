@@ -50,9 +50,9 @@
 
 /* Navigation menu styles */
 .navbar {
-    display: none;  /* Hidden by default */
+    display: none;  
     position: absolute;
-    top: 60px;  /* Adjust this as needed */
+    top: 60px;  
     right: 0;
     background-color: #333;
     width: 200px;
@@ -76,14 +76,36 @@
 .navbar.open {
     display: block;
 }
+
+#bio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: -2;
+    box-shadow: none;
+    height: 350px;
+    width: 310px;
+    transform: translate(-100px, -40px);
+    border: none;
+
+
+}
+#bio hr{
+ border: 3px solid blue;
+ width: 295px;
+}
 .delete-update{
+    border: none;
     width: 100px;
-    height: 80px;
-    transform: translate(10px);
+    height: 0px;
+    transform: translate(0px, -20px);
     position: relative;
     
 }
 #delete{
+    
   transform: translate(200px);
   display: flex;
 
@@ -91,15 +113,14 @@
 
    
 .delete-account-update{
-    width: 50px;
-    border-radius: 20%;
+    width: 100px;
     height: 50px;
-    transform: translateY(90px);
+    transform: translate(40px, 120px);
    
 }
 
 #upload{
-    transform: translate(40px, -100px);
+    transform: translate(40px, -10px);
     position: static;
 
 }
