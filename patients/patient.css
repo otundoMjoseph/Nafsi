@@ -41,12 +41,7 @@
     cursor: pointer;
 } 
 
-.hamburger-menu {
-    font-size: 30px;
-    cursor: pointer;
-    display: inline-block;
-    z-index: 1000;
-}
+
 
 /* Navigation menu styles */
 .navbar {
@@ -72,10 +67,7 @@
     background-color: #575757;
 }
 
-/* Toggle navbar when the hamburger menu is clicked */
-.navbar.open {
-    display: block;
-}
+
 
 #bio{
     display: flex;

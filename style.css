@@ -79,7 +79,7 @@ header nav a img{
     height: 200px;
     border: 2px solid #fff;
     border-radius: 100%;
-    transform: translate(20px);
+    transform: translate(20px, 10px);
 
 }
 
@@ -104,12 +104,10 @@ header nav a img{
 
 #file-upload{
     
-   
     background: rgb(255, 0, 0);
     color: white;
     border-radius: 25px;
     box-shadow: rgba(216, 240, 8, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(4, 8, 240, 0.2) 0px -3px 0px inset;
-    
 }
 
 
